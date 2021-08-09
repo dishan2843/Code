@@ -10,7 +10,7 @@ void merge(int l, int mid, int r, vector<int> &a) {
     for(int i=mid+1; i<=r; i++)
         R.push_back(a[i]);
     
-    int sizeL = L.size(); // mid - l + 1
+    int sizeL = L.size(); // mid - l + 1 : Formula = EndIndex - StartIndex + 1
     int sizeR = R.size(); // r - mid
     int i=0, j=0, k = l;
     
