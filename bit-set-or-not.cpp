@@ -5,7 +5,7 @@ int main() {
     
     int i,n;
     cin>>n>>i;
-    bool a = n & (n>>i);
+    bool a = 1 & (n>>i);
    
    if(a == true)
    {
